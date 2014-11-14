@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+
+<!--
+ * 
+ * javascript/jquery popup windows for Weebly
+ *
+ * By Phil Mora (philmora.com + toppgun.net + philippemora.net)
+ * 
+ * e: phil@toppgun.net
+ * t: @orsusvirtum
+ * f: github.com/toppgun
+ *
+ * (c) June 2014
+ *
+ * General Credits for the original Reveal popup: 
+ * Copyright 2010, ZURB
+ * Free to use under the MIT license.
+ * http://www.opensource.org/licenses/mit-license.php
+ *
+ *
+ * Here is the markup for the popup
+ *
+ *
+ -->
+ 
+ <!--
+  *
+  * Instructions 1:
+  *
+  * Cut and Paste the following code inside an HTML object
+  * anywhere within the page that will feature the popup
+  * 
+  * The <br> markers will help you position the popup image
+  * properly on your weebly site relative to the javascript 
+  * container. 
+  *
+  * Note that this modal contains a clickable URL "www.anyURLyouwant.com" as an example
+  * of active content within the modal, the user clicks on "Click Here for More Info"
+  * 
+  * You can also add more active content, say, a paypal button, simply insert
+  * between the <h1> </h1> markers. 
+  *
+  *
+  -->
+
+
+<div id="myModal" class="reveal-modal">
+   
+<a href="http://www.anyURLyouwant.com" target="_blank">
+
+<div style="position:absolute; top:115px; left: 70px; width:500px; height:25px"> 
+<big><big> <font color="white">  Click Here For More Info </font> </big></big> </div>
+
+</a>
+
+<h1> 
+
+<br> <br> <br> <br> <br> 
+<br> <br> <br> <br> <br> <br>
+
+</h1>
+
+<a class="close-reveal-modal">&#215;</a>
+
+</div>
+
+    
+ <!--
+  * 
+  * Instructions 2:
+  *
+  * Cut and Paste the following into the source of the html
+  * page that will feature the popup. 
+  * 
+  * For example if you want to include the popup to a splash page,
+  * go to "design" then "edit html" and paste the following at the 
+  * bottom of the page's body, right before  the </body> markup
+  *
+  *
+  -->
+    	
+<link rel="stylesheet" href="reveal.css">
+<script src="/files/theme/jquery.min.js" type="text/javascript"></script>
+<script src="/files/theme/jquery.reveal.js" type="text/javascript"></script>
+			
+    
+</html>
